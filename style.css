@@ -222,7 +222,10 @@ footer {
     background: rgba(0, 0, 0, 0.6);
 }
 
-.services-bg h3,
+.services-bg h3 {
+    font-size: 34px;
+}
+
 .services-bg ul {
     position: relative;
     z-index: 1;
@@ -234,7 +237,7 @@ footer {
 }
 
 .services-bg li {
-    font-size: 18px;
+    font-size: 22px;
     margin: 10px 0;
 }
 
