@@ -173,3 +173,67 @@ footer {
     line-height: 1.6;
     margin-bottom: 15px;
 }
+
+/* HERO SECTION */
+.hero-bg {
+    background-image: url("images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.55);
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.hero-overlay h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero-overlay p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* SERVICES SECTION */
+.services-bg {
+    background-image: url("images/services-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.services-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.services-bg h3,
+.services-bg ul {
+    position: relative;
+    z-index: 1;
+}
+
+.services-bg ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services-bg li {
+    font-size: 18px;
+    margin: 10px 0;
+}
