@@ -342,3 +342,40 @@ nav a {
     padding: 40px 20px;
     text-align: center;
 }
+
+/* PRICE GUIDE SECTION */
+.price-hero {
+    background: #87ceeb;
+    /* sky blue */
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-overlay {
+    text-align: center;
+    color: #003366;
+    max-width: 700px;
+}
+
+.price-overlay h3 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.price-overlay p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.price-overlay ul {
+    list-style: none;
+    padding: 0;
+}
+
+.price-overlay li {
+    font-size: 20px;
+    margin: 12px 0;
+    font-weight: 500;
+}
