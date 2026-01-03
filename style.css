@@ -296,3 +296,43 @@ nav a {
         display: inline-block;
     }
 }
+
+/* CONTACT IMAGE SECTION */
+.contact-hero {
+    background-image: url("images/contact-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    position: relative;
+}
+
+.contact-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.contact-overlay {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.contact-overlay h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-overlay p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* FORM SECTION (NO IMAGE) */
+.contact-form-section {
+    background: #f4f6f8;
+    padding: 40px 20px;
+}
