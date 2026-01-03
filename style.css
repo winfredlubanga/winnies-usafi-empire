@@ -141,3 +141,35 @@ footer {
     border-radius: 50%;
     z-index: 1000;
 }
+
+.about-hero {
+    background-image: url("images/about-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    /* dark overlay */
+    color: white;
+    padding: 40px;
+    max-width: 800px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.about-overlay h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.about-overlay p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
